@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" role="img" aria-labelledby="title desc">
+  <title id="title">Curse of the D19 concept preview</title>
+  <desc id="desc">A black, purple and gold fantasy nineteen-sided die concept with the 19 face glowing.</desc>
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="45%" r="75%">
+      <stop offset="0" stop-color="#24152f"/>
+      <stop offset="0.55" stop-color="#100b16"/>
+      <stop offset="1" stop-color="#050507"/>
+    </radialGradient>
+    <linearGradient id="face" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#231828"/>
+      <stop offset="1" stop-color="#09070c"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f5d77a"/>
+      <stop offset="0.45" stop-color="#a87025"/>
+      <stop offset="1" stop-color="#4c2c0e"/>
+    </linearGradient>
+    <filter id="purpleGlow" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="12" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="shadow" x="-40%" y="-40%" width="180%" height="180%">
+      <feDropShadow dx="0" dy="24" stdDeviation="22" flood-color="#000" flood-opacity="0.85"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="700" fill="url(#bg)"/>
+  <circle cx="610" cy="350" r="260" fill="#6d22a7" opacity="0.12" filter="url(#purpleGlow)"/>
+  <text x="70" y="95" fill="#d9b8ff" font-size="66" font-family="Georgia,serif" font-weight="700">CURSE OF THE D19</text>
+  <text x="74" y="140" fill="#ad8bc8" font-size="25" font-family="Georgia,serif" letter-spacing="5">ALL THE DRAMA. NONE OF THE 20.</text>
+  <g filter="url(#shadow)" stroke="url(#gold)" stroke-width="8" stroke-linejoin="round">
+    <polygon points="600,185 775,250 730,430 600,555 455,445 420,270" fill="#0c0910"/>
+    <polygon points="600,185 775,250 600,330 420,270" fill="url(#face)"/>
+    <polygon points="420,270 600,330 455,445" fill="#17101c"/>
+    <polygon points="775,250 730,430 600,330" fill="#120d17"/>
+    <polygon points="455,445 600,330 600,555" fill="#0d0911"/>
+    <polygon points="600,330 730,430 600,555" fill="#18101e"/>
+  </g>
+  <g fill="#c455ff" font-family="Georgia,serif" font-weight="700" text-anchor="middle" filter="url(#purpleGlow)">
+    <text x="605" y="287" font-size="82">19</text>
+    <text x="505" y="375" font-size="62">2</text>
+    <text x="688" y="372" font-size="62">18</text>
+    <text x="528" y="485" font-size="58">3</text>
+    <text x="665" y="492" font-size="58">17</text>
+  </g>
+  <g transform="translate(600 330)">
+    <circle r="46" fill="#09070c" stroke="#c18a33" stroke-width="5"/>
+    <circle r="33" fill="#5b216f" opacity="0.65"/>
+    <text y="12" fill="#f4d47a" font-size="40" text-anchor="middle">☠</text>
+  </g>
+  <g font-family="Arial,sans-serif">
+    <text x="850" y="245" fill="#d6c0e8" font-size="28" font-weight="700">19 SIDES</text>
+    <text x="850" y="282" fill="#9d79bc" font-size="22">No natural 20. By design.</text>
+    <text x="850" y="350" fill="#d6c0e8" font-size="28" font-weight="700">FOUNDY VTT v14</text>
+    <text x="850" y="387" fill="#9d79bc" font-size="22">Dice So Nice integration</text>
+    <text x="850" y="455" fill="#d6c0e8" font-size="28" font-weight="700">CURSED</text>
+    <text x="850" y="492" fill="#9d79bc" font-size="22">Obviously.</text>
+  </g>
+  <text x="600" y="650" fill="#cda8ed" font-size="28" text-anchor="middle" font-family="Georgia,serif" letter-spacing="5">SOME CURSES LAST FOREVER.</text>
+</svg>
