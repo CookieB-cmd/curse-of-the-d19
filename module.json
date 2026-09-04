@@ -1,0 +1,29 @@
+{
+  "id": "curse-of-the-d19",
+  "title": "Curse of the D19",
+  "description": "A genuine cursed d19 for Dice So Nice.",
+  "version": "0.1.0",
+  "compatibility": {
+    "minimum": "14",
+    "verified": "14"
+  },
+  "authors": [
+    {
+      "name": "Curse of the D19"
+    }
+  ],
+  "esmodules": [
+    "scripts/d19.js"
+  ],
+  "relationships": {
+    "requires": [
+      {
+        "id": "dice-so-nice",
+        "type": "module",
+        "compatibility": {
+          "minimum": "6.2.0"
+        }
+      }
+    ]
+  }
+}

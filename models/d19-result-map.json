@@ -1,0 +1,25 @@
+{
+  "shape": "d19",
+  "results": [
+    {"value": 1, "resultFace": 1},
+    {"value": 2, "resultFace": 2},
+    {"value": 3, "resultFace": 3},
+    {"value": 4, "resultFace": 4},
+    {"value": 5, "resultFace": 5},
+    {"value": 6, "resultFace": 6},
+    {"value": 7, "resultFace": 7},
+    {"value": 8, "resultFace": 8},
+    {"value": 9, "resultFace": 9},
+    {"value": 10, "resultFace": 10},
+    {"value": 11, "resultFace": 11},
+    {"value": 12, "resultFace": 12},
+    {"value": 13, "resultFace": 13},
+    {"value": 14, "resultFace": 14},
+    {"value": 15, "resultFace": 15},
+    {"value": 16, "resultFace": 16},
+    {"value": 17, "resultFace": 17},
+    {"value": 18, "resultFace": 18},
+    {"value": 19, "resultFace": 19}
+  ],
+  "note": "Runtime visual/physics orientation must be validated in Foundry v14 + Dice So Nice."
+}
