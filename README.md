@@ -2,6 +2,12 @@
 
 A tiny Foundry VTT v14 module for the truly cursed adventurer: roll a **real d19** with Dice So Nice.
 
+## Actual mesh preview
+
+![Actual d19 mesh preview](docs/d19-mesh-preview.svg)
+
+This image is rendered directly from the current `models/d19.glb` geometry, so it shows the actual prototype mesh rather than concept art.
+
 ## Goal
 
 Once installed alongside Dice So Nice, ordinary Foundry rolls such as:
