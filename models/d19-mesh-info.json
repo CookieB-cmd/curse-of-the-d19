@@ -4,6 +4,11 @@
   "watertight_source": true,
   "source_vertices": 20073,
   "source_triangles": 40146,
-  "conversion": "centered at origin, normalized longest dimension to 2.0 units, vertex-clustered preview/runtime GLB",
-  "runtime_glb_note": "v0.2.0 test build uses a reduced mesh for GitHub/runtime delivery; live Dice So Nice validation still required."
+  "runtime_geometry": "19-plane physical envelope reconstructed from the 19 large flat outer faces of the deep STL",
+  "runtime_vertices": 34,
+  "runtime_triangles": 64,
+  "runtime_watertight": true,
+  "runtime_extents": [1.95166654, 1.92240649, 2.0],
+  "conversion": "outer-face planes extracted from the uploaded deep STL, intersected into a closed convex polyhedron, centered at origin and normalized to longest dimension 2.0 units",
+  "note": "The runtime GLB preserves the physical D19 shape for Dice So Nice testing. The engraved numerals are not baked into this lightweight physics envelope; the module currently supplies 1-19 labels separately. Live Foundry v14 + Dice So Nice validation is still required."
 }
