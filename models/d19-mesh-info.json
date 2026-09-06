@@ -1,0 +1,9 @@
+{
+  "source": "https://www.printables.com/model/769247-dany-parametric-any-number-dice-d19-d7-d13-d21-d20",
+  "source_file": "d19_deep (1).stl",
+  "watertight_source": true,
+  "source_vertices": 20073,
+  "source_triangles": 40146,
+  "conversion": "centered at origin, normalized longest dimension to 2.0 units, vertex-clustered preview/runtime GLB",
+  "runtime_glb_note": "v0.2.0 test build uses a reduced mesh for GitHub/runtime delivery; live Dice So Nice validation still required."
+}
