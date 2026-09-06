@@ -1,31 +1,73 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-labelledby="title desc">
-<title id="title">Actual Curse of the D19 mesh preview</title>
-<desc id="desc">Orthographic-style preview rendered directly from models/d19.glb.</desc>
-<defs><radialGradient id="bg"><stop offset="0" stop-color="#211329"/><stop offset="1" stop-color="#08070a"/></radialGradient></defs>
-<rect width="1200" height="800" fill="url(#bg)"/>
-<text x="60" y="80" fill="#d9b8ff" font-size="52" font-family="Georgia,serif" font-weight="700">CURSE OF THE D19</text>
-<text x="62" y="120" fill="#a98bc0" font-size="22" font-family="Arial,sans-serif">Actual mesh preview — rendered from models/d19.glb</text>
-<polygon points="556.1,446.1 500.5,404.6 493.2,367.7" fill="rgb(20,18,40)" stroke="#b58a39" stroke-width="2.2" stroke-linejoin="round"/>
-<polygon points="556.1,446.1 493.2,367.7 519.7,337.0" fill="rgb(21,19,40)" stroke="#b58a39" stroke-width="2.2" stroke-linejoin="round"/>
-<polygon points="556.1,446.1 519.7,337.0 569.2,323.5" fill="rgb(23,19,41)" stroke="#b58a39" stroke-width="2.2" stroke-linejoin="round"/>
-<polygon points="556.1,446.1 569.2,323.5 623.4,333.6" fill="rgb(26,20,43)" stroke="#b58a39" stroke-width="2.2" stroke-linejoin="round"/>
-<polygon points="556.1,446.1 623.4,333.6 663.6,366.7" fill="rgb(30,22,45)" stroke="#b58a39" stroke-width="2.2" stroke-linejoin="round"/>
-<polygon points="556.1,446.1 663.6,366.7 677.8,414.8" fill="rgb(34,23,47)" stroke="#b58a39" stroke-width="2.2" stroke-linejoin="round"/>
-<polygon points="556.1,446.1 677.8,414.8 662.4,461.1" fill="rgb(39,25,49)" stroke="#b58a39" stroke-width="2.2" stroke-linejoin="round"/>
-<polygon points="556.1,446.1 662.4,461.1 621.5,490.7" fill="rgb(44,26,52)" stroke="#b58a39" stroke-width="2.2" stroke-linejoin="round"/>
-<polygon points="556.1,446.1 621.5,490.7 567.7,497.5" fill="rgb(49,28,54)" stroke="#b58a39" stroke-width="2.2" stroke-linejoin="round"/>
-<polygon points="556.1,446.1 567.7,497.5 518.6,479.4" fill="rgb(54,30,57)" stroke="#b58a39" stroke-width="2.2" stroke-linejoin="round"/>
-<polygon points="643.9,353.9 493.2,367.7 500.5,404.6" fill="rgb(56,30,58)" stroke="#b58a39" stroke-width="2.2" stroke-linejoin="round"/>
-<polygon points="643.9,353.9 519.7,337.0 493.2,367.7" fill="rgb(58,31,59)" stroke="#b58a39" stroke-width="2.2" stroke-linejoin="round"/>
-<polygon points="643.9,353.9 569.2,323.5 519.7,337.0" fill="rgb(60,32,60)" stroke="#b58a39" stroke-width="2.2" stroke-linejoin="round"/>
-<polygon points="643.9,353.9 623.4,333.6 569.2,323.5" fill="rgb(62,32,61)" stroke="#b58a39" stroke-width="2.2" stroke-linejoin="round"/>
-<polygon points="643.9,353.9 663.6,366.7 623.4,333.6" fill="rgb(64,33,62)" stroke="#b58a39" stroke-width="2.2" stroke-linejoin="round"/>
-<polygon points="643.9,353.9 677.8,414.8 663.6,366.7" fill="rgb(66,34,63)" stroke="#b58a39" stroke-width="2.2" stroke-linejoin="round"/>
-<polygon points="643.9,353.9 662.4,461.1 677.8,414.8" fill="rgb(67,34,63)" stroke="#b58a39" stroke-width="2.2" stroke-linejoin="round"/>
-<polygon points="643.9,353.9 621.5,490.7 662.4,461.1" fill="rgb(67,34,63)" stroke="#b58a39" stroke-width="2.2" stroke-linejoin="round"/>
-<polygon points="643.9,353.9 567.7,497.5 621.5,490.7" fill="rgb(66,34,63)" stroke="#b58a39" stroke-width="2.2" stroke-linejoin="round"/>
-<polygon points="643.9,353.9 518.6,479.4 567.7,497.5" fill="rgb(64,33,62)" stroke="#b58a39" stroke-width="2.2" stroke-linejoin="round"/>
-<polygon points="556.1,446.1 518.6,479.4 500.5,404.6" fill="rgb(58,31,59)" stroke="#b58a39" stroke-width="2.2" stroke-linejoin="round"/>
-<polygon points="643.9,353.9 500.5,404.6 518.6,479.4" fill="rgb(62,32,61)" stroke="#b58a39" stroke-width="2.2" stroke-linejoin="round"/>
-<text x="600" y="745" text-anchor="middle" fill="#cda8ed" font-size="20" font-family="Arial,sans-serif">21 vertices · 38 triangles · direct GLB geometry</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 760" role="img" aria-labelledby="t d">
+<title id="t">Curse of the D19 runtime mesh</title>
+<desc id="d">Wireframe-style render of the watertight 19-plane runtime mesh reconstructed from the uploaded dAny deep D19 STL.</desc>
+<defs><radialGradient id="bg"><stop offset="0" stop-color="#24152d"/><stop offset="1" stop-color="#09070b"/></radialGradient></defs>
+<rect width="1000" height="760" fill="url(#bg)"/>
+<text x="50" y="70" fill="#d7b2ff" font-size="42" font-family="Georgia,serif" font-weight="700">CURSE OF THE D19</text>
+<text x="52" y="105" fill="#aa8bbb" font-size="18" font-family="Arial,sans-serif">v0.2 runtime mesh — reconstructed from the dAny deep D19 STL</text>
+<polygon points="437.0,407.4 480.6,376.2 519.5,393.8" fill="rgba(105,62,132,0.350)" stroke="#c09bdb" stroke-width="1.6" stroke-linejoin="round"/>
+<polygon points="480.6,376.2 519.5,393.8 547.3,345.9" fill="rgba(105,62,132,0.352)" stroke="#c09bdb" stroke-width="1.6" stroke-linejoin="round"/>
+<polygon points="437.0,407.4 519.5,393.8 524.1,408.9" fill="rgba(105,62,132,0.354)" stroke="#c09bdb" stroke-width="1.6" stroke-linejoin="round"/>
+<polygon points="480.6,376.2 473.0,331.8 522.0,312.0" fill="rgba(105,62,132,0.375)" stroke="#c09bdb" stroke-width="1.6" stroke-linejoin="round"/>
+<polygon points="519.5,393.8 572.3,423.9 524.1,408.9" fill="rgba(105,62,132,0.378)" stroke="#c09bdb" stroke-width="1.6" stroke-linejoin="round"/>
+<polygon points="437.0,407.4 524.1,408.9 491.1,451.7" fill="rgba(105,62,132,0.379)" stroke="#c09bdb" stroke-width="1.6" stroke-linejoin="round"/>
+<polygon points="480.6,376.2 522.0,312.0 547.3,345.9" fill="rgba(105,62,132,0.381)" stroke="#c09bdb" stroke-width="1.6" stroke-linejoin="round"/>
+<polygon points="413.5,381.5 480.6,376.2 473.0,331.8" fill="rgba(105,62,132,0.383)" stroke="#c09bdb" stroke-width="1.6" stroke-linejoin="round"/>
+<polygon points="413.5,381.5 437.0,407.4 480.6,376.2" fill="rgba(105,62,132,0.387)" stroke="#c09bdb" stroke-width="1.6" stroke-linejoin="round"/>
+<polygon points="519.5,393.8 585.6,365.4 547.3,345.9" fill="rgba(105,62,132,0.402)" stroke="#c09bdb" stroke-width="1.6" stroke-linejoin="round"/>
+<polygon points="437.0,407.4 448.1,439.6 491.1,451.7" fill="rgba(105,62,132,0.402)" stroke="#c09bdb" stroke-width="1.6" stroke-linejoin="round"/>
+<polygon points="572.3,423.9 524.1,408.9 491.1,451.7" fill="rgba(105,62,132,0.403)" stroke="#c09bdb" stroke-width="1.6" stroke-linejoin="round"/>
+<polygon points="413.5,381.5 437.0,407.4 448.1,439.6" fill="rgba(105,62,132,0.414)" stroke="#c09bdb" stroke-width="1.6" stroke-linejoin="round"/>
+<polygon points="413.5,381.5 473.0,331.8 437.0,324.5" fill="rgba(105,62,132,0.419)" stroke="#c09bdb" stroke-width="1.6" stroke-linejoin="round"/>
+<polygon points="519.5,393.8 572.3,423.9 585.6,365.4" fill="rgba(105,62,132,0.423)" stroke="#c09bdb" stroke-width="1.6" stroke-linejoin="round"/>
+<polygon points="473.0,331.8 522.0,312.0 522.9,292.5" fill="rgba(105,62,132,0.428)" stroke="#c09bdb" stroke-width="1.6" stroke-linejoin="round"/>
+<polygon points="522.0,312.0 585.6,365.4 547.3,345.9" fill="rgba(105,62,132,0.430)" stroke="#c09bdb" stroke-width="1.6" stroke-linejoin="round"/>
+<polygon points="473.0,331.8 437.0,324.5 434.6,304.4" fill="rgba(105,62,132,0.443)" stroke="#c09bdb" stroke-width="1.6" stroke-linejoin="round"/>
+<polygon points="572.3,423.9 514.3,475.0 491.1,451.7" fill="rgba(105,62,132,0.452)" stroke="#c09bdb" stroke-width="1.6" stroke-linejoin="round"/>
+<polygon points="413.5,381.5 437.0,324.5 434.6,304.4" fill="rgba(105,62,132,0.465)" stroke="#c09bdb" stroke-width="1.6" stroke-linejoin="round"/>
+<polygon points="489.4,486.0 448.1,439.6 491.1,451.7" fill="rgba(105,62,132,0.465)" stroke="#c09bdb" stroke-width="1.6" stroke-linejoin="round"/>
+<polygon points="413.5,381.5 448.1,439.6 426.4,461.5" fill="rgba(105,62,132,0.470)" stroke="#c09bdb" stroke-width="1.6" stroke-linejoin="round"/>
+<polygon points="473.0,331.8 473.7,284.1 522.9,292.5" fill="rgba(105,62,132,0.473)" stroke="#c09bdb" stroke-width="1.6" stroke-linejoin="round"/>
+<polygon points="473.0,331.8 473.7,284.1 434.6,304.4" fill="rgba(105,62,132,0.480)" stroke="#c09bdb" stroke-width="1.6" stroke-linejoin="round"/>
+<polygon points="522.0,312.0 585.6,365.4 592.0,349.4" fill="rgba(105,62,132,0.483)" stroke="#c09bdb" stroke-width="1.6" stroke-linejoin="round"/>
+<polygon points="572.3,423.9 514.3,475.0 569.3,445.3" fill="rgba(105,62,132,0.484)" stroke="#c09bdb" stroke-width="1.6" stroke-linejoin="round"/>
+<polygon points="489.4,486.0 514.3,475.0 491.1,451.7" fill="rgba(105,62,132,0.491)" stroke="#c09bdb" stroke-width="1.6" stroke-linejoin="round"/>
+<polygon points="522.0,312.0 566.2,311.8 522.9,292.5" fill="rgba(105,62,132,0.495)" stroke="#c09bdb" stroke-width="1.6" stroke-linejoin="round"/>
+<polygon points="572.3,423.9 585.6,365.4 592.0,349.4" fill="rgba(105,62,132,0.496)" stroke="#c09bdb" stroke-width="1.6" stroke-linejoin="round"/>
+<polygon points="522.0,312.0 566.2,311.8 592.0,349.4" fill="rgba(105,62,132,0.515)" stroke="#c09bdb" stroke-width="1.6" stroke-linejoin="round"/>
+<polygon points="489.4,486.0 448.1,439.6 426.4,461.5" fill="rgba(105,62,132,0.515)" stroke="#c09bdb" stroke-width="1.6" stroke-linejoin="round"/>
+<polygon points="413.5,381.5 401.9,344.5 434.6,304.4" fill="rgba(105,62,132,0.520)" stroke="#c09bdb" stroke-width="1.6" stroke-linejoin="round"/>
+<polygon points="489.4,486.0 514.3,475.0 569.3,445.3" fill="rgba(105,62,132,0.523)" stroke="#c09bdb" stroke-width="1.6" stroke-linejoin="round"/>
+<polygon points="413.5,381.5 409.7,444.8 392.9,391.8" fill="rgba(105,62,132,0.526)" stroke="#c09bdb" stroke-width="1.6" stroke-linejoin="round"/>
+<polygon points="413.5,381.5 409.7,444.8 426.4,461.5" fill="rgba(105,62,132,0.527)" stroke="#c09bdb" stroke-width="1.6" stroke-linejoin="round"/>
+<polygon points="572.3,423.9 576.8,437.5 569.3,445.3" fill="rgba(105,62,132,0.528)" stroke="#c09bdb" stroke-width="1.6" stroke-linejoin="round"/>
+<polygon points="413.5,381.5 401.9,344.5 392.9,391.8" fill="rgba(105,62,132,0.533)" stroke="#c09bdb" stroke-width="1.6" stroke-linejoin="round"/>
+<polygon points="473.7,284.1 566.2,311.8 522.9,292.5" fill="rgba(105,62,132,0.539)" stroke="#c09bdb" stroke-width="1.6" stroke-linejoin="round"/>
+<polygon points="572.3,423.9 584.7,405.6 592.0,349.4" fill="rgba(105,62,132,0.551)" stroke="#c09bdb" stroke-width="1.6" stroke-linejoin="round"/>
+<polygon points="401.9,344.5 473.7,284.1 434.6,304.4" fill="rgba(105,62,132,0.557)" stroke="#c09bdb" stroke-width="1.6" stroke-linejoin="round"/>
+<polygon points="489.4,486.0 576.8,437.5 569.3,445.3" fill="rgba(105,62,132,0.567)" stroke="#c09bdb" stroke-width="1.6" stroke-linejoin="round"/>
+<polygon points="572.3,423.9 576.8,437.5 584.7,405.6" fill="rgba(105,62,132,0.576)" stroke="#c09bdb" stroke-width="1.6" stroke-linejoin="round"/>
+<polygon points="409.7,444.8 401.9,344.5 392.9,391.8" fill="rgba(105,62,132,0.581)" stroke="#c09bdb" stroke-width="1.6" stroke-linejoin="round"/>
+<polygon points="473.7,284.1 566.2,311.8 525.5,312.3" fill="rgba(105,62,132,0.602)" stroke="#c09bdb" stroke-width="1.6" stroke-linejoin="round"/>
+<polygon points="401.9,344.5 473.7,284.1 486.7,299.9" fill="rgba(105,62,132,0.608)" stroke="#c09bdb" stroke-width="1.6" stroke-linejoin="round"/>
+<polygon points="539.7,367.6 566.2,311.8 592.0,349.4" fill="rgba(105,62,132,0.611)" stroke="#c09bdb" stroke-width="1.6" stroke-linejoin="round"/>
+<polygon points="467.4,425.1 489.4,486.0 426.4,461.5" fill="rgba(105,62,132,0.615)" stroke="#c09bdb" stroke-width="1.6" stroke-linejoin="round"/>
+<polygon points="489.4,486.0 576.8,437.5 510.8,472.0" fill="rgba(105,62,132,0.616)" stroke="#c09bdb" stroke-width="1.6" stroke-linejoin="round"/>
+<polygon points="467.4,425.1 409.7,444.8 426.4,461.5" fill="rgba(105,62,132,0.618)" stroke="#c09bdb" stroke-width="1.6" stroke-linejoin="round"/>
+<polygon points="409.7,444.8 401.9,344.5 423.9,344.8" fill="rgba(105,62,132,0.622)" stroke="#c09bdb" stroke-width="1.6" stroke-linejoin="round"/>
+<polygon points="473.7,284.1 486.7,299.9 525.5,312.3" fill="rgba(105,62,132,0.633)" stroke="#c09bdb" stroke-width="1.6" stroke-linejoin="round"/>
+<polygon points="539.7,367.6 584.7,405.6 592.0,349.4" fill="rgba(105,62,132,0.634)" stroke="#c09bdb" stroke-width="1.6" stroke-linejoin="round"/>
+<polygon points="467.4,425.1 489.4,486.0 510.8,472.0" fill="rgba(105,62,132,0.646)" stroke="#c09bdb" stroke-width="1.6" stroke-linejoin="round"/>
+<polygon points="401.9,344.5 486.7,299.9 423.9,344.8" fill="rgba(105,62,132,0.649)" stroke="#c09bdb" stroke-width="1.6" stroke-linejoin="round"/>
+<polygon points="539.7,367.6 566.2,311.8 525.5,312.3" fill="rgba(105,62,132,0.654)" stroke="#c09bdb" stroke-width="1.6" stroke-linejoin="round"/>
+<polygon points="409.7,444.8 447.4,418.2 423.9,344.8" fill="rgba(105,62,132,0.656)" stroke="#c09bdb" stroke-width="1.6" stroke-linejoin="round"/>
+<polygon points="467.4,425.1 576.8,437.5 584.7,405.6" fill="rgba(105,62,132,0.661)" stroke="#c09bdb" stroke-width="1.6" stroke-linejoin="round"/>
+<polygon points="467.4,425.1 576.8,437.5 510.8,472.0" fill="rgba(105,62,132,0.663)" stroke="#c09bdb" stroke-width="1.6" stroke-linejoin="round"/>
+<polygon points="467.4,425.1 409.7,444.8 447.4,418.2" fill="rgba(105,62,132,0.669)" stroke="#c09bdb" stroke-width="1.6" stroke-linejoin="round"/>
+<polygon points="467.4,425.1 486.7,299.9 423.9,344.8" fill="rgba(105,62,132,0.685)" stroke="#c09bdb" stroke-width="1.6" stroke-linejoin="round"/>
+<polygon points="467.4,425.1 486.7,299.9 525.5,312.3" fill="rgba(105,62,132,0.687)" stroke="#c09bdb" stroke-width="1.6" stroke-linejoin="round"/>
+<polygon points="467.4,425.1 539.7,367.6 584.7,405.6" fill="rgba(105,62,132,0.688)" stroke="#c09bdb" stroke-width="1.6" stroke-linejoin="round"/>
+<polygon points="467.4,425.1 447.4,418.2 423.9,344.8" fill="rgba(105,62,132,0.699)" stroke="#c09bdb" stroke-width="1.6" stroke-linejoin="round"/>
+<polygon points="467.4,425.1 539.7,367.6 525.5,312.3" fill="rgba(105,62,132,0.700)" stroke="#c09bdb" stroke-width="1.6" stroke-linejoin="round"/>
+<text x="500" y="715" text-anchor="middle" fill="#c9a8df" font-size="17" font-family="Arial,sans-serif">34 vertices · 64 triangles · watertight · 19 physical face planes</text>
 </svg>
