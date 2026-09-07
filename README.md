@@ -10,11 +10,11 @@ The v0.2 runtime mesh is reconstructed from the physical outer faces of the deep
 
 ## Status
 
-**v0.2.0 runtime test build**
+**v0.2.1 display diagnostic build**
 
-This build replaces the old prototype geometry with the dAny-derived D19 shape. The immediate test is whether Dice So Nice accepts and animates the custom `d19` GLB when Foundry rolls `/r 1d19`.
+The v0.2.0 test confirmed that Foundry evaluates `/r 1d19`, but Dice So Nice silently skipped rendering because `d19` is not one of its built-in physical shapes.
 
-The runtime GLB currently uses the clean physical envelope of the source die. Its engraved numerals are **not yet baked into this lightweight GLB** because Dice So Nice custom GLB models replace its normal label-generation path. Once the geometry is confirmed working in a live Foundry + Dice So Nice session, the next step is numbered face artwork/geometry plus verified result-to-face orientation.
+v0.2.1 keeps the real D19 GLB but explicitly maps the visual preset onto Dice So Nice's supported `d20` physics host. This is a diagnostic step only: it tells us whether Dice So Nice can instantiate and display the custom GLB at all. It is not the final result-orientation/physics solution.
 
 ## Requirements
 
@@ -37,23 +37,21 @@ Restart Foundry, enable **Dice So Nice** and **Curse of the D19**, then enter:
 
 ### What to check
 
-1. The module enables without errors.
-2. `/r 1d19` returns a numerical result from 1 through 19.
-3. A 3D die appears.
-4. Whether the custom D19 shape appears or Dice So Nice falls back/rejects it.
-5. If anything fails, copy the relevant browser-console error.
+1. `/r 1d19` still returns a numerical result from 1 through 19.
+2. A 3D die appears at all.
+3. Whether the custom D19 mesh is visible.
+4. If the die appears, ignore result-face accuracy for this diagnostic build.
+5. If nothing appears, copy any console output containing `Curse of the D19` or `Dice So Nice`.
 
 The console should contain:
 
 ```text
-Curse of the D19 | Registered custom d19 model with Dice So Nice.
+Curse of the D19 | Registered d19 model using DSN d20 physics host for display testing.
 ```
-
-if registration reaches Dice So Nice successfully.
 
 ## Design rule
 
-No fake d20. No remapped d24. 💀
+No fake d20 as the final die. No remapped d24. 💀
 
 ## Model source and licensing
 
