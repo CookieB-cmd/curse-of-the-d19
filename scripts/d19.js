@@ -17,7 +17,7 @@ Hooks.once("diceSoNiceReady", (dice3d) => {
     type: "d19",
     system: "curse-of-the-d19",
     modelFile: "modules/curse-of-the-d19/models/d19.glb"
-  }, "d20");
+  }, "d24");
 
-  console.info("Curse of the D19 | Registered d19 model using DSN d20 physics host for display testing.");
+  console.info("Curse of the D19 | Registered d19 model using DSN d24 physics host for display testing.");
 });
