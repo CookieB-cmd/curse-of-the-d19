@@ -2,7 +2,7 @@
   "id": "curse-of-the-d19",
   "title": "Curse of the D19",
   "description": "A genuine cursed d19 for Dice So Nice.",
-  "version": "0.2.2",
+  "version": "0.3.0",
   "compatibility": {
     "minimum": "14",
     "verified": "14"
@@ -21,7 +21,7 @@
         "id": "dice-so-nice",
         "type": "module",
         "compatibility": {
-          "minimum": "6.2.0"
+          "minimum": "6.2.9"
         }
       }
     ]
